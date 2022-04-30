@@ -10,6 +10,13 @@ CONFIG   += c++11
 
 SOURCES  += \
     main.cpp \
+    minesweeperinjector.cpp
+
+HEADERS  += \
+    minesweeperinjector.h
+
+FORMS    += \
+    minesweeperinjector.ui
 
 INCLUDEPATH += "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.19041.0/um/x86"
 
