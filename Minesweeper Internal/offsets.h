@@ -19,3 +19,9 @@
 #define iTimerValue					0x579C	
 #define iTotalSquares				0x57A0	
 #define iOpenedSquares				0x57A4
+
+// ==== VALUES ====
+#define iSoundTimerTick				0x1
+#define iSoundWin					0x2
+#define iSoundLose					0x3
+#define iFieldArraySize				832
