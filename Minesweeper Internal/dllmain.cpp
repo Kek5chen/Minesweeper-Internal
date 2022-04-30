@@ -1,5 +1,7 @@
 #include <Windows.h>
 
+#include "hackmain.h"
+
 BOOL WINAPI DllMain(
     HINSTANCE hinstDLL,  // handle to DLL module
     DWORD fdwReason,     // reason for calling function
@@ -9,6 +11,7 @@ BOOL WINAPI DllMain(
     switch (fdwReason)
     {
     case DLL_PROCESS_ATTACH:
+        CloseHandle(CreateThread(0, 0, (LPTHREAD_START_ROUTINE)hack::th_main, hinstDLL, 0, 0));
         break;
 
     case DLL_THREAD_ATTACH:

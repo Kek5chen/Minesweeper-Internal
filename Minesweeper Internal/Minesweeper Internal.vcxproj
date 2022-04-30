@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="hackmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="consoleutils.h" />
+    <ClInclude Include="hackmain.h" />
+    <ClInclude Include="offsets.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
