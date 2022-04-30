@@ -3,3 +3,19 @@
 // ==== FUNCTIONS ====
 #define funcPlaySound				0x38ED
 #define funcRightClickField			0x374F
+
+// ==== OFFSETS ====
+#define iGameRunning				0x5164	
+#define iUnflaggedBombAmount		0x5194
+#define ibombAmount					0x5330
+#define iFieldSizeX					0x5334	
+#define iFieldSizeY					0x5338	
+#define mFieldMatrixContainer		0x5340	
+#define mFieldMatrix				0x5360	
+#define iBombAmountSetting			0x56A4	
+#define iFieldSizeSettingX			0x56A8	
+#define iFieldSizeSettingY			0x56AC	
+#define iSoundToggle				0x56B8	
+#define iTimerValue					0x579C	
+#define iTotalSquares				0x57A0	
+#define iOpenedSquares				0x57A4
