@@ -25,3 +25,14 @@
 #define iSoundWin					0x2
 #define iSoundLose					0x3
 #define iFieldArraySize				832
+
+// ==== BITMASKS ====
+#define	bRevealedBombField			0xA
+#define	bRevealedNBombFlaggedField	0xB
+#define	bQuestionmarkedField		0xD
+#define	bFlaggedField				0xE
+#define	bUnflaggedField				0xF
+#define	bMatrixRowStartEnd			0x10
+#define	bRevealedField				0x40
+#define	bBombField					0x80
+#define	bRevealedClickedBombField	0xCC
